@@ -1,4 +1,4 @@
-import { escapeRegExp as escapeRe } from 'lodash';
+var lodash = require('lodash');
 
 const startsWithWildcardRegExp = /^\*\./;
 const endsWithWildcardRegExp   = /\.\*$/;
@@ -50,7 +50,7 @@ function urlMatchRule (sourceUrl, rule) {
     if (domainRequiredBeforeRule)
         regExStr += '.+';
 
-    regExStr += escapeRe(rule.url).replace(wildcardRegExp, '\\..*');
+    regExStr += lodash.escapeRegExp(rule.url).replace(wildcardRegExp, '\\..*');
 
     if (domainRequiredAfterRule)
         regExStr += '.+';
@@ -60,7 +60,7 @@ function urlMatchRule (sourceUrl, rule) {
     return new RegExp(regExStr).test(sourceUrl.url) && matchByProtocols && matchByPorts;
 }
 
-export default function (url, rules) {
+module.exports = function (url, rules) {
     if (!Array.isArray(rules))
         rules = [rules];
 

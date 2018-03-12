@@ -1,0 +1,21 @@
+{
+  "name": "proxy-bypass",
+  "version": "0.0.1",
+  "description": "Module to match url by pattern",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexKamaev/proxy-bypass"
+  },
+  "keywords": [
+    "url",
+    "match-url",
+    "no-proxy",
+    "proxy-bypass"
+  ],
+  "author": "alexkamaev",
+  "license": "MIT"
+}

@@ -1,6 +1,6 @@
 {
   "name": "proxy-bypass",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Module to match url by pattern",
   "main": "index.js",
   "scripts": {

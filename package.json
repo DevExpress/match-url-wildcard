@@ -3,8 +3,13 @@
   "version": "0.0.3",
   "description": "Module to match url by pattern",
   "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
   "dependencies": {
-    "lodash": "^4.13.1"
+    "chai": "^4.1.2",
+    "lodash": "^4.13.1",
+    "mocha": "^5.0.4"
   },
   "repository": {
     "type": "git",

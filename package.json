@@ -1,7 +1,7 @@
 {
-  "name": "proxy-bypass",
-  "version": "0.0.4",
-  "description": "Module to match url by pattern",
+  "name": "match-url-wildcard",
+  "version": "0.0.1",
+  "description": "Module to match url by pattern with wildcard",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
@@ -13,13 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexKamaev/proxy-bypass"
+    "url": "git+https://github.com/AlexKamaev/match-url-wildcard"
   },
   "keywords": [
     "url",
     "match-url",
     "no-proxy",
-    "proxy-bypass"
+    "proxy-bypass",
+    "wildcard"
   ],
   "author": "alexkamaev",
   "license": "MIT"

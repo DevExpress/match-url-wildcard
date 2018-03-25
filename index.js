@@ -1,4 +1,4 @@
-var lodash = require('lodash');
+var escapeRegExp = require('escape-string-regexp');
 
 var startsWithWildcardRegExp = /^\*\./;
 var endsWithWildcardRegExp   = /\.\*$/;
@@ -50,7 +50,7 @@ function urlMatchRule (sourceUrl, rule) {
     if (domainRequiredBeforeRule)
         regExStr += '.+';
 
-    regExStr += lodash.escapeRegExp(rule.url).replace(wildcardRegExp, '\\..*');
+    regExStr += escapeRegExp(rule.url).replace(wildcardRegExp, '\\..*');
 
     if (domainRequiredAfterRule)
         regExStr += '.+';

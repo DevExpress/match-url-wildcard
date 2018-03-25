@@ -1,4 +1,4 @@
-# Match-url-wildcard [![Build Status](https://travis-ci.org/AlexKamaev/proxy-bypass.svg?branch=master)](https://travis-ci.org/AlexKamaev/proxy-bypass)
+# Match-url-wildcard [![Build Status](https://travis-ci.org/AlexKamaev/match-url-wildcard.svg?branch=master)](https://travis-ci.org/AlexKamaev/match-url-wildcard)
 ## Module to match url by pattern
 
 #### var rule = 'google.com';

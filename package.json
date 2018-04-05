@@ -1,6 +1,6 @@
 {
   "name": "match-url-wildcard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Module to match url by pattern with wildcard",
   "main": "index.js",
   "scripts": {

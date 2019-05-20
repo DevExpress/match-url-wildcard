@@ -3,6 +3,10 @@
   "version": "0.0.2",
   "description": "Module to match url by pattern with wildcard",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "ts-defs"
+  ],
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },

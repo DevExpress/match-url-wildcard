@@ -1,6 +1,6 @@
 {
   "name": "match-url-wildcard",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Module to match url by pattern with wildcard",
   "main": "index.js",
   "files": [
@@ -29,5 +29,6 @@
     "wildcard"
   ],
   "author": "alexkamaev",
-  "license": "MIT"
+  "license": "MIT",
+  "types": "./ts-defs/index.d.ts"
 }

@@ -1,1 +1,3 @@
-export default function (url: string, rules: string|Array<string>|void): boolean;
+declare namespace matchUrl { }
+declare function matchUrl(url: string, rules: string | Array<string> | void): boolean;
+export = matchUrl;

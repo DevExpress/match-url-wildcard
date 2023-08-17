@@ -8,7 +8,7 @@
     "ts-defs"
   ],
   "scripts": {
-    "test": "./node_modules/.bin/mocha",
+    "test": "mocha",
     "publish-please": "publish-please",
     "prepublishOnly": "publish-please guard"
   },

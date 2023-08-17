@@ -1,6 +1,6 @@
 {
   "name": "match-url-wildcard",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Module to match url by pattern with wildcard",
   "main": "index.js",
   "files": [
@@ -8,14 +8,17 @@
     "ts-defs"
   ],
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "mocha",
+    "publish-please": "publish-please",
+    "prepublishOnly": "publish-please guard"
   },
   "dependencies": {
     "escape-string-regexp": "^1.0.5"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^10.2.0"
+    "mocha": "^10.2.0",
+    "publish-please": "^5.5.2"
   },
   "repository": {
     "type": "git",

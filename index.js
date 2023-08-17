@@ -2,7 +2,7 @@ var escapeRegExp = require('escape-string-regexp');
 
 var startsWithWildcardRegExp = /^\*\./;
 var endsWithWildcardRegExp   = /\.\*$/;
-var trailingSlashesRegExp    = /\/.*$/;
+var trailingSlashesRegExp    = /\/.{0,10000}$/;
 var portRegExp               = /:(\d+)$/;
 var protocolRegExp           = /^(\w+):\/\//;
 var wildcardRegExp           = /\\\.\\\*/g;

@@ -20,6 +20,12 @@
     "mocha": "^10.2.0",
     "publish-please": "^5.5.2"
   },
+  "overrides": {
+    "publish-please": {
+      "lodash": "^4.17.21",
+      "semver": "^5.7.2"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlexKamaev/match-url-wildcard"
